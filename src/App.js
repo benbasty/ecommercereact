@@ -9,6 +9,7 @@ import NewArrival from './components/New Arrival/NewArrival';
 import SmallBanners from './components/SmallBanners/smallBanners';
 import TextBanners from './components/TextBanners/TextBanners';
 import NewsLetter from './components/NewsLetter/NewsLetter';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
       <SmallBanners />
       <TextBanners />
       <NewsLetter />
+      <Footer />
     </div>
     
   );

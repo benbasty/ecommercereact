@@ -1,7 +1,7 @@
 import './newsletter.css';
 function NewsLetter() {
     return(
-        <section id='newsletter' className='section-p1 section-m1'>
+        <section id='newsletter' className='section-p1'>
             <div className='newsText'>
                 <h4>Sign Up for NewsLetter</h4>
                 <p>Get E-mail updates about our latest shop and <span>special offers</span>.</p>

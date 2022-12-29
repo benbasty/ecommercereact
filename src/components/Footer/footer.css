@@ -1,0 +1,66 @@
+footer .main-footer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+footer .main-footer .contact,
+footer .main-footer .about,
+footer .main-footer .account,
+footer .main-footer .app {
+    display: flex;
+    flex-direction: column;
+}
+
+footer .main-footer .contact img {
+    width: 40%;
+    padding-bottom: 40px;
+}
+footer .main-footer .contact h4 {
+    font-weight: 900;
+    font-size: 20px;
+    padding: 30px 0;
+    
+}
+footer .main-footer .contact p {
+    line-height: 0.3;
+}
+
+footer .main-footer .contact p span {
+    font-weight: 900;
+    font-size: 18px;
+}
+
+footer .main-footer .about h4,
+footer .main-footer .account h4,
+footer .main-footer .app h4 {
+    padding-bottom: 30px;
+    font-weight: 800;
+}
+
+footer .main-footer .about a,
+footer .main-footer .account a {
+    line-height: 2;
+    padding: 5px 0;
+    text-decoration: none;
+    color: rgb(65, 64, 64);
+    font-weight: 500;
+}
+
+footer .main-footer .app .download-img img {
+    border: 1px solid #E3E6F3;
+    border-radius: 5px;
+    border-top-color: #088178;
+    border-bottom-color: #088178;
+}
+footer .main-footer .app .download-img img:nth-child(1) {
+    margin-right: 5px;
+}
+
+footer .main-footer .app .pay {
+    width: 70%;
+}
+
+footer .copyright {
+    text-align: center;
+}
