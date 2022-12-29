@@ -12,16 +12,14 @@ footer .main-footer .app {
     flex-direction: column;
 }
 
-footer .main-footer .contact img {
-    width: 40%;
-    padding-bottom: 40px;
-}
 footer .main-footer .contact h4 {
     font-weight: 900;
     font-size: 20px;
-    padding: 30px 0;
+    padding-bottom: 30px;
     
 }
+
+
 footer .main-footer .contact p {
     line-height: 0.3;
 }
@@ -30,6 +28,41 @@ footer .main-footer .contact p span {
     font-weight: 900;
     font-size: 18px;
 }
+
+footer .main-footer .contact .follow {
+    padding-top: 12px;
+}
+
+footer .main-footer .contact .socials {
+    display: flex;
+    justify-content:flex-start;
+}
+
+footer .main-footer .contact .socials .icon {
+    text-decoration: none;
+    color: black;
+    padding: 0 5px;
+    transition: 1s ease;
+}
+
+footer .main-footer .contact .socials .icon:nth-child(1):hover {
+    color: #3b5998;
+}
+footer .main-footer .contact .socials .icon:nth-child(2):hover {
+    color: #00acee;
+}
+footer .main-footer .contact .socials .icon:nth-child(3):hover {
+    color: #E4405F;
+}
+footer .main-footer .contact .socials .icon:nth-child(4):hover {
+    color: #c8232c;
+}
+footer .main-footer .contact .socials .icon:nth-child(5):hover {
+    color: #FF0000;
+}
+
+
+
 
 footer .main-footer .about h4,
 footer .main-footer .account h4,

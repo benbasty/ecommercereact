@@ -11,15 +11,19 @@ function Footer() {
         <footer className="section-p1">
             <div className='main-footer'>
                 <div className='contact'>
-                    <img src={LOGO} alt='logo' />
                     <h4>Contact</h4>
                     <p><span>Address</span>: 562 Wellington Road, Street 32, San Francisco</p>
                     <p><span>Phone</span>: +01222365 /(+91)0123456789</p>
                     <p><span>Hours</span>: 10:00 - 18:00, Mon - Sat</p>
-                    <h4>Follow Us</h4>
+                    <h4 className='follow'>Follow Us</h4>
                     <div className='socials'>
-                        <FaFacebookF /> <FaTwitter /> <FaInstagram /> <FaPinterestP /> <FaYoutube />
+                        <a href='#facebook' className='icon'><FaFacebookF /></a>
+                        <a href='#twitter' className='icon'><FaTwitter /></a>
+                        <a href='#instagram'className='icon'><FaInstagram /></a>
+                        <a href='#pinterest' className='icon'><FaPinterestP /></a>
+                        <a href='#youtube' className='icon'><FaYoutube /></a>
                     </div>
+                    
                 </div>
                 <div className='about'>
                     <h4>About</h4>
