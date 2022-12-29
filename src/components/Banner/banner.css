@@ -42,4 +42,13 @@
     color: #fff;
 }
 
+@media screen and (max-width: 799px) {
+    #banner {
+        height: 30vh;
+    }
+    #banner h1 {
+        font-size: 38px;
+    }
+}
+
 

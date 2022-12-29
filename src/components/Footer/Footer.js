@@ -1,5 +1,4 @@
 import './footer.css';
-import LOGO from '../../assets/img/logo.png';
 import app from '../../assets/img/pay/app.jpg';
 import play from '../../assets/img/pay/play.jpg';
 import pay from '../../assets/img/pay/pay.png';
@@ -8,7 +7,7 @@ import {FaFacebookF, FaTwitter, FaInstagram, FaPinterestP, FaYoutube} from 'reac
 
 function Footer() {
     return(
-        <footer className="section-p1">
+        <footer>
             <div className='main-footer'>
                 <div className='contact'>
                     <h4>Contact</h4>
@@ -48,7 +47,7 @@ function Footer() {
                         <img src={app} alt='app'/>
                         <img src={play} alt='play'/>
                     </div>
-                    <p>From App Store or Google Pay</p>
+                    <p>Secured Payment Gateways</p>
                     <img src={pay} alt='pay' className='pay'/>
                 </div>
             </div>

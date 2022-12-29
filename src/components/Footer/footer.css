@@ -2,6 +2,7 @@ footer .main-footer {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    padding: 40px 80px 0 80px;
 }
 
 footer .main-footer .contact,
@@ -15,13 +16,13 @@ footer .main-footer .app {
 footer .main-footer .contact h4 {
     font-weight: 900;
     font-size: 20px;
-    padding-bottom: 30px;
+    padding-bottom: 25px;
     
 }
 
 
 footer .main-footer .contact p {
-    line-height: 0.3;
+    line-height: 0.4;
 }
 
 footer .main-footer .contact p span {
@@ -30,15 +31,17 @@ footer .main-footer .contact p span {
 }
 
 footer .main-footer .contact .follow {
-    padding-top: 12px;
+    padding-top: 10px;
 }
 
 footer .main-footer .contact .socials {
     display: flex;
     justify-content:flex-start;
+    
 }
 
 footer .main-footer .contact .socials .icon {
+    
     text-decoration: none;
     color: black;
     padding: 0 5px;
@@ -67,7 +70,7 @@ footer .main-footer .contact .socials .icon:nth-child(5):hover {
 footer .main-footer .about h4,
 footer .main-footer .account h4,
 footer .main-footer .app h4 {
-    padding-bottom: 30px;
+    padding-bottom: 25px;
     font-weight: 800;
 }
 
@@ -81,10 +84,8 @@ footer .main-footer .account a {
 }
 
 footer .main-footer .app .download-img img {
-    border: 1px solid #E3E6F3;
-    border-radius: 5px;
-    border-top-color: #088178;
-    border-bottom-color: #088178;
+    border: 1px solid #088178;
+    border-radius: 6px;
 }
 footer .main-footer .app .download-img img:nth-child(1) {
     margin-right: 5px;
@@ -95,5 +96,16 @@ footer .main-footer .app .pay {
 }
 
 footer .copyright {
+    padding-top: 10px;
     text-align: center;
 }
+footer .copyright p {
+    font-weight: 500;
+}
+
+@media screen and (max-width: 799px) {
+footer .main-footer .account,
+footer .main-footer .app  {
+        padding-top: 40px;
+    }
+} 

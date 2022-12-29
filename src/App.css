@@ -45,10 +45,17 @@ p {
   margin: 40px 0;
 }
 
-body {
-  width: 100%;
+html, body {
+  width:100%;
+  overflow-x:hidden;
 }
 
 html {
   scroll-behavior: smooth;
+}
+
+@media screen and (max-width: 799px) {
+  .section-p1 {
+    padding: 40px 40px;
+  }
 }
