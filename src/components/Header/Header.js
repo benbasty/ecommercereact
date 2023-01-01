@@ -1,7 +1,7 @@
 import './header.css';
 import logo from '../../assets/img/logo.png';
 import {AiFillShopping, AiOutlineMenu, AiOutlineClose} from 'react-icons/ai';
-import { useRef } from 'react';
+import { useRef, useState } from 'react';
 
 
 
@@ -13,6 +13,7 @@ function Header() {
     const closeNavBar = () => {
         nav.current.classList.remove('show');
     }
+    const [activeNav, setActiveNav] = useState('#');
     
     return(
         <section id="header">
@@ -20,13 +21,12 @@ function Header() {
             <div>
                 <ul id='navbar' ref={nav}>
                     {/* later: use switch link to link multiple link with react */}
-                    {/* later: add the active code to each links */}
-                    <li><a href='#home' className='active'>Home</a></li>
-                    <li><a href='#shop'>Shop</a></li>
-                    <li><a href='#blog'>Blog</a></li>
-                    <li><a href='#about'>About</a></li>
-                    <li><a href='#contact'>Contact</a></li>
-                    <li id='shopping-bag'><a href='#shopping'><AiFillShopping/></a></li>
+                    <li><a href='#home' onClick={() => setActiveNav('#home')} className={activeNav === '#home' ? 'active' : ''}>Home</a></li>
+                    <li><a href='#shop'onClick={() => setActiveNav('#shop')} className={activeNav === '#shop' ? 'active' : ''}>Shop</a></li>
+                    <li><a href='#blog' onClick={() => setActiveNav('#blog')} className={activeNav === '#blog' ? 'active' : ''}>Blog</a></li>
+                    <li><a href='#about' onClick={() => setActiveNav('#about')} className={activeNav === '#about' ? 'active' : ''}>About</a></li>
+                    <li><a href='#contact' onClick={() => setActiveNav('#contact')} className={activeNav === '#contact' ? 'active' : ''}>Contact</a></li>
+                    <li id='shopping-bag'><a href='#shopping' onClick={() => setActiveNav('#shopping')} className={activeNav === '#shopping' ? 'active' : ''}><AiFillShopping/></a></li>
                     <i id='close' onClick={closeNavBar}><AiOutlineClose /></i>
                 </ul>
             </div>
