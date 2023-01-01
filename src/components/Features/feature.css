@@ -60,3 +60,12 @@
         margin: 15px 15px;
     }
 }
+
+@media screen and (max-width: 477px) {
+    .section-p1 {
+        padding: 20px;
+    }
+    #feature .feature-box {
+        width: 155px;
+    }
+} 

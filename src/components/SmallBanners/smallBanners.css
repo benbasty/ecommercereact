@@ -60,3 +60,13 @@
         height: 35vh;
     }
 }
+
+@media screen and (max-width: 477px) {
+    #sm-banner .banner-box {
+        height: 40vh;
+        padding: 80px 40px;
+    }
+    #sm-banner .banner-box:nth-child(2) {
+        margin-top: 20px;
+    }
+}

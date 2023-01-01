@@ -104,8 +104,23 @@ footer .copyright p {
 }
 
 @media screen and (max-width: 799px) {
-footer .main-footer .account,
-footer .main-footer .app  {
-        padding-top: 40px;
+    footer .main-footer .account,
+    footer .main-footer .app  {
+            padding-top: 40px;
     }
 } 
+
+@media screen and (max-width: 477px) {
+    footer .main-footer {
+        padding: 40px 30px 0 30px;
+    }
+    footer .main-footer .contact p {
+        line-height: 1;
+    }
+    footer .main-footer .about  {
+        padding-top: 40px;
+    }
+    footer .copyright p {
+        font-size: 13px;
+    }
+}

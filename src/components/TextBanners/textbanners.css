@@ -41,3 +41,15 @@
     background-position: center;
     background-size: cover;
 }
+
+@media screen and (max-width: 477px) {
+    #text-banners .t-banner:nth-child(1),
+    #text-banners .t-banner:nth-child(2),
+    #text-banners .t-banner:nth-child(3) {
+        width: 100%;
+    }
+
+    #text-banners .t-banner {
+        margin-top: 20px;
+    }
+}
