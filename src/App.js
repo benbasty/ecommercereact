@@ -25,7 +25,7 @@ function App() {
       <NewsLetter />
       <Footer />
     </div>
-    
+
   );
 }
 

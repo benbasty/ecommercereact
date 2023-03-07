@@ -54,8 +54,6 @@ function Footer() {
             <div className='copyright'>
                 <p>&copy; 2022 Ben Basty - HTML CSS Javascript React Ecommerce Template</p>
             </div>
-            
-            
         </footer>
     )
 }

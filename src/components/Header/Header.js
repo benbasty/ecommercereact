@@ -14,7 +14,6 @@ function Header() {
         nav.current.classList.remove('show');
     }
     const [activeNav, setActiveNav] = useState('#');
-    
     return(
         <section id="header">
             <a href='#logo'><img src={logo} className='logo' alt='logo'/></a>
