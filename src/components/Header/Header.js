@@ -1,5 +1,5 @@
 import './header.css';
-import logo from '../../assets/img/logo.png';
+import logo from '../../assets/img/logodb.png';
 import {AiFillShopping, AiOutlineMenu, AiOutlineClose} from 'react-icons/ai';
 import { useRef, useState } from 'react';
 
