@@ -1,0 +1,40 @@
+#paginate {
+    padding-bottom: 5rem;
+}
+.pagesContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1.2rem;
+    list-style: none;
+}
+
+.page {
+    background-color: #088178;
+    padding: 0.5rem 1rem;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.page:hover {
+    opacity: 0.8;
+}
+
+.arrow {
+    cursor: pointer;
+    font-size: 1.2rem;
+    color: #088178;
+    transition: 0.2s;
+}
+
+.arrow:hover {
+    color: #04adc4;
+}
+
+.currentPage {
+    background-color: #0786b1;
+    border-radius: 20%;
+    color: #C0C0C0;
+}

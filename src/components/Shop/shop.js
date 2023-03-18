@@ -1,14 +1,15 @@
 import React from 'react'
-import FeaturedProducts from '../Products/FeaturedProducts'
-import NewArrival from '../New Arrival/NewArrival'
+import AllProducts from '../AllProducts/AllProdutcs'
 import ShopHeader from '../ShopHeader/ShopHeader'
 const shop = () => {
   return (
     <div>
       <ShopHeader />
-      <FeaturedProducts />
-      <NewArrival />
-      {/* put content of FeaturedProducts and NewArrival together : named AllProducts */}
+      <AllProducts />
+      {/* }
+      {/* add paginations at the bottom of the products with react*/}
+      {/* create single product page */}
+      {/* make page responsive */}
     </div>
   )
 }
