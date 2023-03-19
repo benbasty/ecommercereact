@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import {AiFillStar, AiOutlineShoppingCart} from 'react-icons/ai';
 import {BsFillArrowLeftCircleFill, BsFillArrowRightCircleFill} from 'react-icons/bs'
 import ReactPaginate from 'react-paginate';
+import { Link } from 'react-router-dom';
 import './AllProducts.css';
 
 import img1 from '../../assets/img/products/n1.jpg';
@@ -20,6 +21,7 @@ import img13 from '../../assets/img/products/f5.jpg';
 import img14 from '../../assets/img/products/f6.jpg';
 import img15 from '../../assets/img/products/f7.jpg';
 import img16 from '../../assets/img/products/f8.jpg';
+
 const products = [
     {
         id : 1,
@@ -173,7 +175,7 @@ const AllProducts = () => {
                             currentItems.map(({id,image,brand,title,reviews,price}) => {
                                 return(
                                     <div key={id} className='product'>
-                                        <img src={image} alt='product'/>
+                                        <Link to='/ecommerce/shop/productPage'><img src={image} alt='product'/></Link>
                                         <div className='description'>
                                             <span>{brand}</span>
                                             <h5>{title}</h5>

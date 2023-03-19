@@ -1,5 +1,6 @@
 import './../Products/featuredProducts.css';
 import {AiFillStar, AiOutlineShoppingCart} from 'react-icons/ai';
+import { Link } from 'react-router-dom';
 import img1 from '../../assets/img/products/n1.jpg';
 import img2 from '../../assets/img/products/n2.jpg';
 import img3 from '../../assets/img/products/n3.jpg';
@@ -8,6 +9,7 @@ import img5 from '../../assets/img/products/n5.jpg';
 import img6 from '../../assets/img/products/n6.jpg';
 import img7 from '../../assets/img/products/n7.jpg';
 import img8 from '../../assets/img/products/n8.jpg';
+
 
 const products = [
     {
@@ -88,7 +90,7 @@ function NewArrival() {
                         products.map(({id,image,brand,title,reviews,price}) => {
                             return(
                                 <div key={id} className='product'>
-                                    <img src={image} alt='product'/>
+                                    <Link to='/ecommerce/shop/productPage'><img src={image} alt='product'/></Link>
                                     <div className='description'>
                                         <span>{brand}</span>
                                         <h5>{title}</h5>
@@ -101,7 +103,7 @@ function NewArrival() {
                                 </div>
                             )
                         })
-                    }              
+                    }
             </div>
         </section>
     )

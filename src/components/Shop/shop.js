@@ -6,10 +6,6 @@ const shop = () => {
     <div>
       <ShopHeader />
       <AllProducts />
-      {/* }
-      {/* add paginations at the bottom of the products with react*/}
-      {/* create single product page */}
-      {/* make page responsive */}
     </div>
   )
 }
