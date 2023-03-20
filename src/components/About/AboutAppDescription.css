@@ -1,0 +1,28 @@
+#aboutApp {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#aboutApp .video {
+    width: 70%;
+    height: 100%;
+    margin: 30px auto 0 auto;
+}
+
+#aboutApp .video video {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+@media screen and (max-width: 477px){
+    #aboutApp h1 {
+        font-size: 30px;
+    }
+    #aboutApp .video {
+        width: 100%;
+    }
+
+}

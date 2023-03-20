@@ -1,0 +1,40 @@
+#aboutpage {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    padding: 150px 150px 0 150px;
+}
+
+#aboutpage .imageAbout {
+    width: 50%;
+}
+
+#aboutpage .imageAbout img {
+    width: 100%;
+    object-fit: cover;
+}
+
+#aboutpage .aboutDescription {
+    width: 50%;
+}
+
+#aboutpage .aboutDescription p {
+    font-size: 17px;
+}
+
+@media screen and (max-width: 477px){
+    #aboutpage {
+        display: flex;
+        flex-direction: column;
+        padding: 100px 20px 0 20px;
+    }
+    #aboutpage .imageAbout {
+        width: 100%;
+    }
+    #aboutpage .aboutDescription {
+        width: 100%;
+    }
+    #aboutpage .aboutDescription h1{
+        font-size: 30px;
+    }
+}
