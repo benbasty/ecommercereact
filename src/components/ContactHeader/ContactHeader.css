@@ -1,0 +1,22 @@
+#bannerContactHeader {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url('/src/assets/img/about/banner.png');
+    width: 100%;
+    height: 40vh;
+    background-size: cover;
+    background-position: center;
+}
+
+#bannerContactHeader h5 {
+    color: #fff;
+    font-size: 16px;
+
+}
+#bannerContactHeader h1 {
+    color: white;
+    padding: 10px 0;
+}

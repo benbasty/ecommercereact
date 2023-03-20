@@ -1,0 +1,46 @@
+#contactsection {
+    display: flex;
+    flex-direction: row;
+    padding: 50px 0;
+    gap: 2rem;
+}
+
+#contactsection .contactDesc {
+    width: 40%;
+}
+
+#contactsection .contactDesc h4, #contactsection, #contactsection .contactDesc h6 {
+    margin-top: 1rem;
+}
+
+.contactDesc h1 {
+    font-size: 36px;
+}
+
+.contactDesc h6 {
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+#contactsection .contactDesc .detailsContact {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+#contactsection .contactDesc .detailsContact span {
+    align-items: center;
+    justify-content: center;
+    margin-top: 0.8rem;
+}
+
+#contactsection .MapContact {
+    width: 60%;
+    height: 450px;
+}
+#contactsection .MapContact iframe {
+    width: 100%;
+    height: 100%;
+}
