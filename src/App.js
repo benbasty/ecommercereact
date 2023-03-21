@@ -17,13 +17,13 @@ function App() {
     <div>
       <Header />
       <Routes>
-        <Route path='/ecommerce' element={<LandingPage />} />
-        <Route path='/ecommerce/shop' element={<Shop />} />
-        <Route path='/ecommerce/shop/productPage' element={<ProductPage />} />
-        <Route path='/ecommerce/blog' element={<Blog />} />
-        <Route path='/ecommerce/about' element={<About />} />
-        <Route path='/ecommerce/contact' element={<Contact />} />
-        <Route path='/ecommerce/cart' element={<Cart />} />
+        <Route path='/ecommercereact' element={<LandingPage />} />
+        <Route path='/ecommercereact/shop' element={<Shop />} />
+        <Route path='/ecommercereact/shop/productPage' element={<ProductPage />} />
+        <Route path='/ecommercereact/blog' element={<Blog />} />
+        <Route path='/ecommercereact/about' element={<About />} />
+        <Route path='/ecommercereact/contact' element={<Contact />} />
+        <Route path='/ecommercereact/cart' element={<Cart />} />
       </Routes>
       <Footer />
     </div>
