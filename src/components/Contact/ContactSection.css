@@ -9,7 +9,7 @@
     width: 40%;
 }
 
-#contactsection .contactDesc h4, #contactsection, #contactsection .contactDesc h6 {
+#contactsection .contactDesc h4, #contactsection .contactDesc h6 {
     margin-top: 1rem;
 }
 
@@ -43,4 +43,30 @@
 #contactsection .MapContact iframe {
     width: 100%;
     height: 100%;
+}
+
+@media (max-width: 977px) {
+    #contactsection {
+        display: flex;
+        flex-direction: column;
+    }
+    #contactsection .contactDesc {
+        width: 100%;
+    }
+    #contactsection .MapContact {
+        width: 100%;
+    }
+}
+
+@media (max-width: 477px) {
+    #contactsection {
+        display: flex;
+        flex-direction: column;
+    }
+    #contactsection .contactDesc {
+        width: 100%;
+    }
+    #contactsection .MapContact {
+        width: 100%;
+    }
 }
