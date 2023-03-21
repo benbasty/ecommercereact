@@ -26,7 +26,7 @@ function Header() {
                     <li><Link to='/ecommerce/blog' onClick={() => setActiveNav('#blog')} className={activeNav === '#blog' ? 'active' : ''}>Blog</Link></li>
                     <li><Link to='/ecommerce/about' onClick={() => setActiveNav('#about')} className={activeNav === '#about' ? 'active' : ''}>About</Link></li>
                     <li><Link to='/ecommerce/contact' onClick={() => setActiveNav('#contact')} className={activeNav === '#contact' ? 'active' : ''}>Contact</Link></li>
-                    <li id='shopping-bag'><Link href='#shopping' onClick={() => setActiveNav('#shopping')} className={activeNav === '#shopping' ? 'active' : ''}><AiFillShopping/></Link></li>
+                    <li id='shopping-bag'><Link to='/ecommerce/cart' onClick={() => setActiveNav('#shopping')} className={activeNav === '#shopping' ? 'active' : ''}><AiFillShopping/></Link></li>
                     <i id='close' onClick={closeNavBar}><AiOutlineClose /></i>
                 </ul>
             </div>
