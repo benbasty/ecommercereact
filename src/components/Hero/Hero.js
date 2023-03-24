@@ -1,5 +1,6 @@
 import './hero.css';
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function Hero(){
     return(
@@ -8,7 +9,7 @@ function Hero(){
             <h2>Super value deals</h2>
             <h1>On all products</h1>
             <p>Save more with coupons and up to 70% off!</p>
-            <button>Shop Now</button>
+            <button><Link to='/ecommercereact/shop'>Shop Now</Link></button>
         </section>
     )
 } 

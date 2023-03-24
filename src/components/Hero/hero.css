@@ -30,6 +30,15 @@
 
 }
 
+#hero a {
+    text-decoration: none;
+    color: #088178;
+    transition: 0.3s;
+}
+#hero a:hover {
+    opacity: 0.7;
+}
+
 @media screen and (max-width: 799px) {
     #hero {
         height: 70vh;
